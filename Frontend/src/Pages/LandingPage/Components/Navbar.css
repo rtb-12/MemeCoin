@@ -1,0 +1,46 @@
+
+.Nav{
+    height: 10dvh;
+    width: 100%;
+    background: transparent;
+}
+
+
+.Logo {
+    height: 70%;
+    width: auto;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+.Logo:hover {
+    filter: drop-shadow(0 0 0.75rem #FFA41B);
+}
+.Nav_bttns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    gap:10px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    cursor: pointer;
+          .Nav_Box {
+            
+                border: 2px solid #1DB4FF;
+                width: 100px;
+                padding: 8px;
+                text-align: center;
+                color: #1DB4FF;
+
+       }
+       .Nav_Box:hover {
+           background: #1DB4FF;
+           color: white;
+           transform: scale(1.1);
+       }
+}

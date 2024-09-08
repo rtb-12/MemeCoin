@@ -1,0 +1,64 @@
+.About {
+    height: 69dvh;
+    width: 100%;
+    display: flex;
+}
+.Lateral {
+    height : 70dvh;
+    width: auto;
+    
+    bottom: 0;
+
+}
+.About_content {
+    height: 70dvh;
+    width: 50%;
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #FFA41B;
+        text-decoration: underline;
+        text-underline-offset: 0.5vw;
+    }
+    p {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #1DB4FF;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    h3 {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #FFA41B ;
+        text-align: center;
+        margin-top: 30dvh;
+        font-size: 1.3vw;
+        padding: 10px;
+    }
+}
+
+.Icons {
+
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    width: 70%;
+    justify-content: space-between;
+    gap: 20px
+}
+.Icons img {
+    cursor: pointer;
+}
+.Icons img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.2rem #FFA41B);
+}   

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Mine";
+    src: url("../../../assets/screengem.ttf") format("truetype");
+}
+.Home {
+    height: 90dvh;
+    width: 100%;
+    padding: 10dvh 0;
+    h1 {
+        font-family: "Mine";
+        font-size: 7vw;
+        color: #1DB4FF;
+        text-align: center;
+        margin-top: 2dvh;
+        .MemeMoney{
+            color: #FFA41B;
+        }
+        .light{
+            color: #8ed3f5;
+        }
+
+    }
+    .Arrow{
+        position: relative;
+        left: 5%;
+        bottom: 5%;
+
+    }
+}

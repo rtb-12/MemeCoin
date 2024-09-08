@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+.Create{
+    height: 50dvh;
+    width: 100%;
+    padding: 5dvh 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h2{
+        color: #FFA41B ;
+        font-size: 2vw;
+        font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+        text-decoration: underline;
+        text-underline-offset: 0.5vw;
+    }
+}
+.King_photu {
+    height: 20dvh;
+    width: height;
+    border: 4px solid #1DB4FF;
+}
+.King {
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+.King_details {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #1DB4FF;
+}
+.Token_bttn {
+    
+    margin: 5dvh auto;
+    border: 2px solid #1DB4FF;
+    width: 70vw;
+    padding: 10px;
+    color: #1DB4FF;
+    font-size: larger;
+    cursor: pointer;
+}
+.Token_bttn:hover {
+    background: #1DB4FF;
+    color: white;
+    transform: scale(1.1);
+}
+.safe {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8ed3f5;
+    margin-top: 2dvh;
+    margin-bottom: 10dvh;
+    padding: 0;
+    text-align: end;
+    margin-right: 15vw;
+    cursor: pointer;
+}
+.safe:hover {
+    color: #1DB4FF;
+}

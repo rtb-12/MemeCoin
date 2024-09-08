@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Mine";
+    src: url("../../../assets/screengem.ttf") format("truetype");
+}
+
+
+.Layer1 {
+    background: linear-gradient((rgba(0, 0, 0, 0.329),black));
+}
+#tsparticles {
+    z-index: -1;
+}
+.Layer2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.829));
+    position: fixed;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.Layer3 {
+    z-index: 2;
+    position: absolute;
+}
+.Halo {
+    font-family: "Mine";
+    font-size: 19vw;
+    -webkit-text-stroke-color: #1DB4FF;
+    -webkit-text-stroke-width: 1px;
+    color: #1db4ff00;
+    text-align: center;
+    margin-top: 2dvh;
+    padding: 0;
+    margin-bottom: 0;
+}

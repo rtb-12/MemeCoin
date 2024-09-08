@@ -1,0 +1,30 @@
+.MemeCoin {
+    
+    border: 2px solid #1DB4FF;
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.MemeCoin:hover {
+   box-shadow: 4px 4px 0 #1DB4FF;
+   transform: scale(1.01);
+}
+.Coin_photu {
+    height: 20dvh;
+    width: height;
+    border: 4px solid #1DB4FF;
+}
+.Coin {
+    margin-left: 30px;
+    gap: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+.Coin_details {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #1DB4FF;
+}

@@ -1,0 +1,14 @@
+.Coin_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    
+}
+.See_more {
+    margin-left: 83%;
+    right: 15%;
+    padding: 10px 0px;
+}
+.See_more:hover {
+    transform: scale(1.1);
+}
